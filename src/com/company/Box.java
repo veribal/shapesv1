@@ -7,21 +7,18 @@ public class Box {
     private double area;
     private double volume;
 
-    // constructors
     public Box(double l, double w, double h) {
         length = l;
         width = w;
         height = h;
     }
 
-    // mutators
     public void setDimension(double l, double w, double h)
     {
         this.area = (2 * (h * w)) + (2 * (h * l)) + (2 * (w * l));
         this.volume = l * w * h;
     }
 
-    // accessors
     public double getLength() {
         return length;
     }
