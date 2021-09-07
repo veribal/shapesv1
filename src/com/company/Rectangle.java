@@ -28,7 +28,6 @@ public class Rectangle {
         return perimeter;
     }
 
-    // mutators
     public void setDimension(double length, double width)
     {
         this.perimeter = 2 * (length + width);
